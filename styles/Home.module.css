@@ -60,6 +60,20 @@
   font-size: 1.5rem;
 }
 
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.wahoo {
+  display: block;
+}
+
+.wahoo:hover {
+  animation: spin 4s infinite linear;
+}
+
+
 .code {
   background: #fafafa;
   border-radius: 5px;
